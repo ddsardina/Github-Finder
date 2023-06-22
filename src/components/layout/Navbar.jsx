@@ -8,7 +8,7 @@ function Navbar({title}) {
     <div className='container mx-auto'>
         <div className="flex-none px-2 mx-2">
             <FaGithub className='inline pr-2 text-5xl'/>
-            <Link to='/' className="text-xl font-bold">
+            <Link to='/' className="text-xl font-bold align-middle">
               {title}
             </Link>
         </div>
@@ -16,6 +16,9 @@ function Navbar({title}) {
           <div className="flex justify-end">
             <Link to='/' className='btn btn-ghost btn-sm rounded-btn'>
               Home
+            </Link>
+            <Link to='/' className='btn btn-ghost btn-sm rounded-btn'>
+              About
             </Link>
           </div>
         </div>
